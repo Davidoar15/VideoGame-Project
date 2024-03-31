@@ -9,8 +9,12 @@
   </head>
 
   <body class="body-home">
-    <section class="section-header">
-      <h1>BIENVENIDA</h1>
+    <header class="section-header">
+      <a href="Home.html">
+        <div class="home-icon-container">
+          <img src="assets/house.png" alt="to Landing Page" />
+        </div>
+      </a>
       <nav>
         <ul class="nav-list">
           <li>
@@ -31,20 +35,26 @@
             >
           </li>
         </ul>
-        <p class="nav-p">
-          (enlaces para redireccionar a otras partes de la web)
-        </p>
       </nav>
-    </section>
+    </header>
 
-    <section class="section-main">
-      <section class="section-main-content">
-        TE DAMOS LA BIENVENIDA (Aca serviria una "Landing Page")
+    <main class="section-main">
+      <section class="section-main-text">
+        <h1>¡Bienvenido a nuestra página de Videojuegos!</h1>
+        <p>
+          Aquí encontrarás un catálogo de los videojuegos más relevantes de la
+          industria y de nuestra historia. Recórrelos y consigue tus favoritos
+        </p>
       </section>
-    </section>
+      <section class="section-main-list">
+        <button id="prevBtn" class="prevBtn">🡠</button>
+        <div id="panel" class="videogame"></div>
+        <button id="nextBtn" class="nextBtn">🡢</button>
+      </section>
+    </main>
 
     <footer class="footer">FOOTER</footer>
 
-    <!-- <script src="JS/common.js"></script> -->
+    <script type="module" src="JS/common.js"></script>
   </body>
 </html>
